@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css?family=Amarante);
+
+.home{
+}
+
+.eh1{
+
+	color:#84b7cc;
+	z-index:10;
+
+	-webkit-text-fill-color:transparent;
+	background: -webkit-linear-gradient(transparent, transparent), url('http://www.subeimagenes.com/img/fondo-891218.png') repeat 0 0;
+	background: -o-linear-gradient(transparent, transparent);
+	-webkit-background-clip: text;
+
+	font-size:8em;
+	line-height:280px;
+	font-weight:700;
+	position:absolute;
+	text-align:center;
+	left:0;
+	right:0;
+
+	padding:0;
+	margin:0;
+	font-family:Amarante, cursive;
+}
+
+.eh2{
+
+	font-size:8em;
+	line-height:280px;
+	font-weight:700;
+	position:absolute;
+	text-align:center;
+	left:0;
+	right:0;
+
+	padding:0;
+	margin:0;
+
+	text-shadow:10px 10px 10px #000;z-index:9;
+	font-family:Amarante, cursive;
+
+}
+
+.learn{
+		position:absolute;
+	text-align:center;
+	left:0;
+	right:0;
+
+	padding:0;
+	margin:0;
+	top:45vh;
+	font-size:3em;
+	z-index:8;
+	font-family:Amarante, cursive;
+
+}
+
+@media only screen and (max-width: 700px){
+	.eh1{
+		transform: scale(0.4, 0.4);
+		}
+
+		.eh2{
+			transform: scale(0.4, 0.4);
+		}
+}
+.wire{
+	 background: #000;
+  position: fixed;
+  bottom: 15vh;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #666;
+}
+
+.birdwrapper{
+	 margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 5vh;
+  position: fixed;
+  width: 100%;
+  height: 150px;
+}
+
+.about{
+	position: absolute;
+  right: 5%;
+  bottom: 0px;
+  font-size:1.5em;
+  cursor:pointer;
+}
+
+.about:hover{
+  transform: scale(1.2, 1.2);
+}
+
+.bird1 {
+  position: absolute;
+  left: 12%;
+  bottom: 0px;
+}
+.head1 {
+  position: absolute;
+  left: 27px;
+  bottom: 94px;
+  background: #000;
+  height: 24px;
+  width: 19px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.beak1 {
+  position: absolute;
+  left: 38px;
+  bottom: 103px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 10px solid #000;
+  border-bottom: 6px solid transparent;
+  -webkit-transform: rotate(17deg);
+  -moz-transform: rotate(17deg);
+  -ms-transform: rotate(17deg);
+  -o-transform: rotate(17deg);
+  transform: rotate(17deg);
+}
+.body1 {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  background: #000;
+  height: 60px;
+  width: 32px;
+  -webkit-border-radius: 50% 50% 50% 50% / 35% 35% 65% 65%;
+  border-radius: 50% 50% 50% 50% / 35% 35% 65% 65%;
+}
+
+.body1:before,
+.body1:after {
+  content: "";
+  position: absolute;
+  border-bottom: 35px solid #000;
+  border-left: 3px solid transparent;
+  border-right: 6px solid transparent;
+  bottom: -27px;
+  left: 2px;
+  -webkit-transform: rotate(-155deg);
+  -moz-transform: rotate(-155deg);
+  -ms-transform: rotate(-155deg);
+  -o-transform: rotate(-155deg);
+  transform: rotate(-155deg);
+}
+
+.body1:after {
+  left: auto;
+  right: 5px;
+  -webkit-transform: rotate(165deg);
+  -moz-transform: rotate(165deg);
+  -ms-transform: rotate(165deg);
+  -o-transform: rotate(165deg);
+  transform: rotate(165deg);
+}
+.wing-left1, #wing-right1 {
+  position: absolute;
+  bottom: 40px;
+  height: 30px;
+  width: 4px;
+  background: #000;
+  -webkit-border-radius: 50% 50% 50% 50% / 15% 15% 85% 85%;
+  border-radius: 50% 50% 50% 50% / 15% 15% 85% 85%;
+}
+.wing-left1 {
+  left: 27px;
+  -webkit-transform: rotate(-18deg);
+  -moz-transform: rotate(-18deg);
+  -ms-transform: rotate(-18deg);
+  -o-transform: rotate(-18deg);
+  transform: rotate(-18deg);
+}
+.wing-right1 {
+  left: 40px;
+  -webkit-transform: rotate(18deg);
+  -moz-transform: rotate(18deg);
+  -ms-transform: rotate(18deg);
+  -o-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+/* end bird 1 */
+
+
+/* bird 2 */
+.bird2 {
+  position: absolute;
+  left: 7%;
+  bottom: 0px;
+}
+.head2 {
+  position: absolute;
+  left: 29px;
+  bottom: 95px;
+  background: #000;
+  height: 22px;
+  width: 19px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.beak2 {
+  position: absolute;
+  left: 42px;
+  bottom: 101px;
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-left: 12px solid #000;
+  border-bottom: 7px solid transparent;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+.body2 {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  background: #000;
+  height: 60px;
+  width: 30px;
+  -webkit-border-radius: 50% 50% 50% 50% / 35% 35% 65% 65%;
+  border-radius: 50% 50% 50% 50% / 35% 35% 65% 65%;
+  -webkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+.body2:before,
+.body2:after {
+  content: "";
+  position: absolute;
+  border-bottom: 42px solid #000;
+  border-left: 5px solid transparent;
+  border-right: 3px solid transparent;
+  bottom: -34px;
+  left: 3px;
+  -webkit-transform: rotate(-160deg);
+  -moz-transform: rotate(-160deg);
+  -ms-transform: rotate(-160deg);
+  -o-transform: rotate(-160deg);
+  transform: rotate(-160deg);
+}
+
+.body2:after {
+  left: auto;
+  right: 3px;
+  -webkit-transform: rotate(160deg);
+  -moz-transform: rotate(160deg);
+  -ms-transform: rotate(160deg);
+  -o-transform: rotate(160deg);
+  transform: rotate(160deg);
+}
+.wing-left2, #wing-right2 {
+  position: absolute;
+  bottom: 40px;
+  height: 30px;
+  width: 4px;
+  background: #000;
+  -webkit-border-radius: 50% 50% 50% 50% / 15% 15% 85% 85%;
+  border-radius: 50% 50% 50% 50% / 15% 15% 85% 85%;
+}
+.wing-left2 {
+  left: 25px;
+  -webkit-transform: rotate(-13deg);
+  -moz-transform: rotate(-13deg);
+  -ms-transform: rotate(-13deg);
+  -o-transform: rotate(-13deg);
+  transform: rotate(-13deg);
+}
+.wing-right2 {
+  left: 37px;
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+}
+/* end bird 2 */

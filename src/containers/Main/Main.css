@@ -1,0 +1,41 @@
+.background{
+	font-family: 'Monofett', cursive;
+	
+}
+
+body{
+	background: linear-gradient(to bottom, #81addb 0%,#8599be 30%,#eb9291 70%,#eb7 100%);
+	 background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.siz{
+		height:15vh;
+		}
+
+.pos{		
+			position:fixed;
+			width:100vw;
+			background: #81addb; 
+			box-shadow: 0 8px 6px -6px black;
+		}
+
+.flexRowContainer{
+	display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+
+}
+
+@media only screen and (max-width: 700px){
+	.siz{
+			height:20vh
+		}
+
+		.pos{
+			margin-top:-2vh;
+			transform: scale(0.7, 0.7);
+		}
+}
