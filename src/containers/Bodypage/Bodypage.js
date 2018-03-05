@@ -14,7 +14,6 @@ class Bodypage extends Component {
 	render(){
 		return(
 				<div className="body">
-				how
 						<Switch>
 						<Route exact path="/" component={HomePage}/>
 						<Route exact path="/about" component={AboutPage}/>
